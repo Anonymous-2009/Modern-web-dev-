@@ -107,8 +107,76 @@ html,body{
    background-color:white;
 }
 
+/* second page css */
 
+#second{
+  padding-right:10vw;
+  width:100%;
+  height:100vh;
+  padding-top:200px;
+  background-color:black;
+  color:white;
+}
 
+.element{
+  position:relative;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-top:1px solid gray;
+  width:100%;
+  padding:3.5vw 3vw;
+  padding-right:0px;
+}
+
+.element h1{
+  font-size:7.6vw;
+  text-transform:uppercase;
+  opacity:.7;
+} 
+
+.element:nth-child(3){
+  border-bottom:1px solid gray;
+}
+
+.element img{
+  position:absolute;
+  z-index:1;
+  height:140%;
+ /* opacity:0; */
+  display:none;
+}
+
+#about{
+  width:100%;
+  background-color:black;
+  padding:10vw 10vw;
+  padding-left:40vw;
+  color:white;
+  display:flex;
+  align-items:center;
+  /* justify-content:space-between;*/
+  gap:50px;
+}
+
+#about > img {
+  width:200px;
+}
+#about-text{
+  width:25rem;
+}
+
+#about-text h1{
+  font-size:3.5vw;
+  text-transform:uppercase;
+  opacity:.6;
+  margin-bottom:10px;
+}
+
+#about-text p{
+  line-height:1.7;
+  margin-bottom:30px;
+}
 
 
 
