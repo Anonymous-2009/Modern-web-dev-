@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing:border-box;
-  font-family:general sansf;
+  font-family:general sans;
 }
 
 html,body{
@@ -19,6 +19,7 @@ html,body{
   width:100%;
   height:100vh;
   background-color:black;
+  color:white;
 }
 
 #nav{
@@ -33,8 +34,45 @@ html,body{
 #nav a{
   color:white;
   text-decoration:none;
+  font-size:18px;
 }
 
+#heading{
+  margin-top:40px;
+}
+
+#heading h1{
+  font-size:10vw;
+  font-weight:900;
+  text-transform:uppercase;
+  line-height:1;
+  opacity:.6;
+  margin-left:30px;
+}
+
+#heading .head{
+  margin-left:230px;
+}
+
+.block{
+  width:fit-content; 
+}
+
+.block h5{
+  text-align:right;
+  text-transform:uppercase;
+  font-size:15px;
+}
+
+#chotiheading{
+ margin-top:100px;
+}
+
+#chotiheading h5{
+  text-align:right;
+  text-transform:uppercase;
+  font-size:15px;
+}
 
 
 
