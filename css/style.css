@@ -21,6 +21,15 @@ html,body{
   transition:all cubic(0.1,0.1,0.1,0.1) 0.5s;
 } */
 
+.bounding{
+  width:fit-content;
+  overflow:hidden;
+}
+
+.bounding .bounding-element{
+  transform:translatey(100%);
+}
+
 #main{
   width:100%;
   height:auto;
@@ -68,7 +77,10 @@ html,body{
 }
 
 .block{
-  width:fit-content; 
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: fit-content;
 }
 
 .block h5{
@@ -78,8 +90,11 @@ html,body{
 }
 
 #chotiheading{
-  margin-top:100px;
-  padding-right:50px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 100px;
+  padding-right: 50px;
 }
 
 #chotiheading h5{
