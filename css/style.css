@@ -10,6 +10,17 @@ html,body{
   width: 100%;
 }
 
+/* #mini-circle{
+  width:10px;
+  height:10px;
+  color:white;
+  background-color:white;
+  position:absolute;
+  z-index:2;
+  border-radius:50%;
+  transition:all cubic(0.1,0.1,0.1,0.1) 0.5s;
+} */
+
 #main{
   width:100%;
   height:auto;
@@ -106,7 +117,7 @@ html,body{
    width:25px;
    border-radius:50%;
    gap:5px;
-   background-color:white;
+   background-color:darkgray;
 }
 
 /* second page css */
